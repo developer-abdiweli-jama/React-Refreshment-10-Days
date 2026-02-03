@@ -1,16 +1,16 @@
-# React + Vite
+# Day 02: Props and Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project explores how to pass data between components and ensure data integrity.
 
-Currently, two official plugins are available:
+## Key Learnings
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Passing dynamic data using `props`.
+- Conditional rendering based on state or props.
+- Validating props using `PropTypes`.
+- Rendering lists using the `map()` function.
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components/UserProfile.jsx`: Demonstrates conditional rendering.
+- `src/components/UserUsername.jsx`: Basic prop display.
+- `src/components/UserFavoriteFoods.jsx`: List rendering demonstration.
